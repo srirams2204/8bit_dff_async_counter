@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
+  wokwi_id:     441524771945863169      # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "8bit_dff_async_counter"      # Project title
+  author:       "Sriram.S"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "Asynchronous 8bit D Flop-Flop Binary Counter"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -26,14 +26,14 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "out0"
+  uo[1]: "out1"
+  uo[2]: "out1"
+  uo[3]: "out2"
+  uo[4]: "out4"
+  uo[5]: "out5"
+  uo[6]: "out6"
+  uo[7]: "out7"
 
   # Bidirectional pins
   uio[0]: ""
